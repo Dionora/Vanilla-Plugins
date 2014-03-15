@@ -1,4 +1,29 @@
-#JumpToTop {
-	position: fixed;
-	bottom: 14px;
+div#JumpToTop {
+width: 75px!important;
+height: 75px;
+background-image: url("back-up1.png");
+background-repeat: no-repeat;
+z-index: 9999;
+}
+
+div#JumpToBottom {
+position: absolute;
+z-index: 9999;
+top: 0px;
+right: 0;
+width: 75px;
+height: 75px;
+background-size: 50px auto;
+background-image: url("down.png");
+background-repeat: no-repeat;
+}
+div.Bottom {
+width: 75px!important;
+display: inline;
+position: relative;
+top: -20px;
+float: right;
+padding: 0!important;
+height: 75px;
+margin: 0!important;
 }
