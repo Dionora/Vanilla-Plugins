@@ -16,7 +16,7 @@
 $PluginInfo['JumpToTop'] = array(
     'Name' => 'Jump To Top',
     'Description' => 'Provides a link to jump to the top of the page. Fades out when not needed.',
-    'Version' => '1.2',
+    'Version' => '1.3',
     'Author' => 'Zachary Doll',
     'AuthorEmail' => 'hgtonight@gmail.com',
     'AuthorUrl' => 'http://www.daklutz.com',

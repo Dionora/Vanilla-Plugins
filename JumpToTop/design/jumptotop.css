@@ -1,5 +1,9 @@
 div#JumpToTop {
-width: 75px!important;
+position: fixed;
+bottom: 0px;
+right: 0;
+width: 75px;
+float: right;
 height: 75px;
 background-image: url("back-up1.png");
 background-repeat: no-repeat;
@@ -16,14 +20,4 @@ height: 75px;
 background-size: 50px auto;
 background-image: url("down.png");
 background-repeat: no-repeat;
-}
-div.Bottom {
-width: 75px!important;
-display: inline;
-position: relative;
-top: -20px;
-float: right;
-padding: 0!important;
-height: 75px;
-margin: 0!important;
 }
